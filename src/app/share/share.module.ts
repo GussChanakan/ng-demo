@@ -60,6 +60,7 @@ import { SkeletonModule } from 'primeng/skeleton';
         SidebarModule,
         ButtonModule,
         CascadeSelectModule,
+        BrowserAnimationsModule,
         // FontAwesomeModule,
         TableModule,
         ToastModule,
@@ -96,7 +97,7 @@ import { SkeletonModule } from 'primeng/skeleton';
         FieldsetModule,
         BadgeModule,
         SkeletonModule,
-
+        // BrowserAnimationsModule 
     ],
     exports: [
         CommonModule,
@@ -104,6 +105,7 @@ import { SkeletonModule } from 'primeng/skeleton';
         SidebarModule,
         ButtonModule,
         CascadeSelectModule,
+        BrowserAnimationsModule,
         // FontAwesomeModule,
         TableModule,
         ToastModule,
@@ -140,7 +142,8 @@ import { SkeletonModule } from 'primeng/skeleton';
         GalleriaModule,
         CarouselModule,
         InputTextareaModule,
-        KeyFilterModule
+        KeyFilterModule,
+        // BrowserAnimationsModule 
     ],
     providers: [MessageService, ConfirmationService,],
 })
